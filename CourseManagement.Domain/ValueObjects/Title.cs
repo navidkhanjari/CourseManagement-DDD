@@ -4,7 +4,6 @@ namespace CourseManagement.Domain.ValueObjects
 {
     public record Title
     {
-
         public string Value { get; }
 
         public Title(string value)
